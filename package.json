@@ -1,6 +1,6 @@
 {
   "name": "datadog-middleware",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Connect middleware that records timing metrics via hot-shots",
   "main": "index.js",
   "scripts": {
