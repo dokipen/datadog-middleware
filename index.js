@@ -1,7 +1,9 @@
-import StatsD from 'hot-shots'
+'use strict'
 
-function middleware(opts) {
-  let statsd = StatsD(opts)
+let StatsD = require('hot-shots')
+
+module.exports = function(opts) {
+  let statsd = new StatsD(opts)
   return (req, res, next) => {
     let start = new Date()
     let end = res.end
@@ -16,5 +18,3 @@ function middleware(opts) {
     next()
   }
 }
-
-export default middleware
