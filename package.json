@@ -1,0 +1,28 @@
+{
+  "name": "datadog-middleware",
+  "version": "0.0.1",
+  "description": "Connect middleware that records timing metrics via hot-shots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dokipen/datadog-middleware.git"
+  },
+  "keywords": [
+    "connect",
+    "expressjs",
+    "datadog",
+    "hot-shots"
+  ],
+  "author": "Bob Corsaro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dokipen/datadog-middleware/issues"
+  },
+  "homepage": "https://github.com/dokipen/datadog-middleware#readme",
+  "dependencies": {
+    "hot-shots": "^4.5.0"
+  }
+}
